@@ -1,6 +1,19 @@
-int ft_putchar_pf(char c, int count)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                       :::      ::::::::    */
+/*   ft_putchar_pf.c                                   :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: mgiustin <marvin@42.fr>                   #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/06/09 11:01:41 by mgiustin         #+#    #+#              */
+/*   Updated: 2026/06/09 11:01:41 by mgiustin        ###   ########.fr        */
+/*                                                                            */
+/* ************************************************************************** */
+# include "printf.h"
+
+int	ft_putchar_pf(char c, int count)
 {
-    count++;
-    write(1, &c, 1);
-    return(count);
+	count++;
+	write(1, &c, 1);
+	return (count);
 }
