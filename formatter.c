@@ -6,9 +6,10 @@
 /*   By: mgiustin <marvin@42.fr>                   #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/06/09 11:01:48 by mgiustin         #+#    #+#              */
-/*   Updated: 2026/06/09 11:01:48 by mgiustin        ###   ########.fr        */
+/*   Updated: 2026/06/09 19:02:44 by mgiustin        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int	formatter(va_list va, const char c, int count)

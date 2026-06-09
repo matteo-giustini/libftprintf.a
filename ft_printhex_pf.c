@@ -6,9 +6,10 @@
 /*   By: mgiustin <marvin@42.fr>                   #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/06/09 11:01:46 by mgiustin         #+#    #+#              */
-/*   Updated: 2026/06/09 11:01:46 by mgiustin        ###   ########.fr        */
+/*   Updated: 2026/06/09 19:02:49 by mgiustin        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int	ft_printhex_pf(unsigned long int n, char format, int count)

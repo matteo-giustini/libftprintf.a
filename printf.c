@@ -6,16 +6,17 @@
 /*   By: mgiustin <marvin@42.fr>                   #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/06/09 11:01:26 by mgiustin         #+#    #+#              */
-/*   Updated: 2026/06/09 11:01:26 by mgiustin        ###   ########.fr        */
+/*   Updated: 2026/06/09 19:08:40 by mgiustin        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int	ft_printf(const char *str, ...)
 {
-	va_list va;
-	int	count;
-	int	i;
+	int		count;
+	int		i;
+	va_list	va;
 
 	if (!str)
 		return (-1);
