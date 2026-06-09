@@ -9,7 +9,7 @@
 /*   Updated: 2026/06/09 11:01:44 by mgiustin        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
-# include "printf.h"
+#include "ft_printf.h"
 
 int	ft_printptr_pf(void *ptr, int count)
 {
@@ -22,6 +22,6 @@ int	ft_printptr_pf(void *ptr, int count)
 		return (count);
 	}
 	count = ft_putstr_pf("0x", count);
-	count = ft_printhex_pfm(p, 'x', count);
+	count = ft_printhex_pf(p, 'x', count);
 	return (count);
 }
